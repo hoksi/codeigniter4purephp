@@ -23,6 +23,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 * Lib 로 활용
 
 ```php
+ <?php
  require_once 'ci3.php'; // CI 3.x
  // require_once 'ci2.php'; // CI 2.x
 
