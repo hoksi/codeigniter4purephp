@@ -27,6 +27,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
  // require_once 'ci2.php'; // CI 2.x
 
  echo $that->load->view('welcome_message', NULL, TRUE);
+?>
 </pre>
 
 * CI의 컨트롤러를 호출
@@ -37,6 +38,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
  // require_once 'ci2.php'; // CI 2.x
 
  exec_controller('welcome', 'index');
+?>
 </pre>
 
 * 주의사항
@@ -50,14 +52,15 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 
 <pre>
 <?php
- require_once 'ci30.php'; // CI 3.x
- // require_once 'ci20.php'; // CI 2.x
+ require_once 'ci3.php'; // CI 3.x
+ // require_once 'ci2.php'; // CI 2.x
 
  // Lib 방식으로 모델을 로드함
  $that->load->model('rgb_m');
 
  // 컨트롤러 에서 rgb_m 모델을 로드하여 사용
  exec_controller('welcome', 'index');
+?>
 </pre>
 
 이 프로젝트를 진행 할 수 있도록 영감을 준 “테러보이”님께 진심으로 감사 드립니다.
