@@ -53,7 +53,9 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
  $that->db->from('table')->where('column', 'data')->get()->result_array();
 ````
 - DB 사용 메뉴얼 : http://cikorea.net/user_guide_2.1.0/database/index.html
-- CI 내장 한글 메뉴얼 : http://cikorea.net/user_guide_2.1.0
+ 
+
+Codeigniter 한글 메뉴얼 : http://cikorea.net/user_guide_2.1.0
 ----
 * 주의사항
 
