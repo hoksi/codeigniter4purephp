@@ -16,7 +16,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 
 * 설치 방법
 
-1. 코드이그나이터(Codeigniter 3.x or 2.x)를 설치 합니다.
+1. 코드이그나이터(Codeigniter 3.x or 2.x)를 설치 합니다.(http://www.codeigniter.com/download)
 2. 다운 받은 압축파일의 압축을 해제 한 후 버전에 맞는 2.x(c20.php), 3.x(ci30.php) 를 에디터로 열어 $system_path 와 $application_folder 의 값을 설치된 CI의 위치로 바꿉니다.
 4. 진행중이거나 사용중인 php 프로젝트에서 CI를 적용시키고자 하는 php파일에 2.x(ci20.php), 3.x(ci30.php) 를 include 한 후 아래와 같이 테스트 해 봅니다.
 
