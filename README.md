@@ -40,6 +40,21 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
  exec_controller('welcome', 'index');
 ```
 
+* CI의 DB 사용 방법
+
+```php
+<?php
+ require_once 'ci3.php'; // CI 3.x
+ // require_once 'ci2.php'; // CI 2.x
+
+ // database load
+ $that->load->database();
+ 
+ $that->db->from('table')->where('column', 'data')->get()->result_array();
+````
+- DB 사용 메뉴얼 : http://cikorea.net/user_guide_2.1.0/database/index.html
+- CI 내장 한글 메뉴얼 : http://cikorea.net/user_guide_2.1.0
+
 * 주의사항
 
 1. CI객체변수명을 메뉴얼에 명시된 것 처럼 $this를 사용하고 싶었으나, 예약어로 지정된 관계로 $that 을 사용 하였습니다.
