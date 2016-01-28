@@ -22,6 +22,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 * Lib 로 활용
 
 <pre>
+<?php
  require_once 'ci3.php'; // CI 3.x
  // require_once 'ci2.php'; // CI 2.x
 
@@ -31,6 +32,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 * CI의 컨트롤러를 호출
 
 <pre>
+<?php
  require_once 'ci3.php'; // CI 3.x
  // require_once 'ci2.php'; // CI 2.x
 
@@ -47,6 +49,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 * 잘못된 사용 예
 
 <pre>
+<?php
  require_once 'ci30.php'; // CI 3.x
  // require_once 'ci20.php'; // CI 2.x
 
