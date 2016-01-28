@@ -22,23 +22,22 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 * Lib 로 활용
 
 <pre>
-<?php
+&lt;?php
  require_once 'ci3.php'; // CI 3.x
  // require_once 'ci2.php'; // CI 2.x
 
  echo $that->load->view('welcome_message', NULL, TRUE);
-?>
+
 </pre>
 
 * CI의 컨트롤러를 호출
 
 <pre>
-<?php
+&lt;php
  require_once 'ci3.php'; // CI 3.x
  // require_once 'ci2.php'; // CI 2.x
 
  exec_controller('welcome', 'index');
-?>
 </pre>
 
 * 주의사항
@@ -51,7 +50,7 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 * 잘못된 사용 예
 
 <pre>
-<?php
+&lt;?php
  require_once 'ci3.php'; // CI 3.x
  // require_once 'ci2.php'; // CI 2.x
 
@@ -60,7 +59,6 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 
  // 컨트롤러 에서 rgb_m 모델을 로드하여 사용
  exec_controller('welcome', 'index');
-?>
 </pre>
 
 이 프로젝트를 진행 할 수 있도록 영감을 준 “테러보이”님께 진심으로 감사 드립니다.
