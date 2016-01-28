@@ -21,18 +21,21 @@ Codeigniter 한국 사용자 포럼에서 활동중인 '불의회상' 입니다.
 
 * Lib 로 활용
 
-require_once 'ci30.php'; // CI 3.x
-// require_once 'ci20.php'; // CI 2.x
+<pre>
+ require_once 'ci3.php'; // CI 3.x
+ // require_once 'ci2.php'; // CI 2.x
 
-echo $that->load->view('welcome_message', NULL, TRUE);
+ echo $that->load->view('welcome_message', NULL, TRUE);
+</pre>
 
 * CI의 컨트롤러를 호출
 
-require_once 'ci30.php'; // CI 3.x
-// require_once 'ci20.php'; // CI 2.x
+<pre>
+ require_once 'ci3.php'; // CI 3.x
+ // require_once 'ci2.php'; // CI 2.x
 
-exec_controller('welcome', 'index');
-
+ exec_controller('welcome', 'index');
+</pre>
 
 * 주의사항
 1. CI객체변수명을 메뉴얼에 명시된 것 처럼 $this를 사용하고 싶었으나, 예약어로 지정된 관계로 $that 을 사용 하였습니다.
@@ -43,13 +46,15 @@ exec_controller('welcome', 'index');
 
 * 잘못된 사용 예
 
-require_once 'ci30.php'; // CI 3.x
-// require_once 'ci20.php'; // CI 2.x
+<pre>
+ require_once 'ci30.php'; // CI 3.x
+ // require_once 'ci20.php'; // CI 2.x
 
-// Lib 방식으로 모델을 로드함
-$that->load->model('rgb_m');
+ // Lib 방식으로 모델을 로드함
+ $that->load->model('rgb_m');
 
-// 컨트롤러 에서 rgb_m 모델을 로드하여 사용
-exec_controller('welcome', 'index');
+ // 컨트롤러 에서 rgb_m 모델을 로드하여 사용
+ exec_controller('welcome', 'index');
+</pre>
 
 이 프로젝트를 진행 할 수 있도록 영감을 준 “테러보이”님께 진심으로 감사 드립니다.
