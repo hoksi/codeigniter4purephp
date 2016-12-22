@@ -415,7 +415,7 @@ if (defined('ENVIRONMENT'))
 		    }
 		    
 		    $directory = $cinfo['dirname'] != '.' ? ($cinfo['dirname'] . '/') : '';
-		    $class = strtolower($cinfo['filename']);
+		    $class = strtolower($cinfo['basename']);
 		
 		    if(func_num_args() > 2) {
 		        $params = func_get_args();
